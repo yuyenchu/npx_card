@@ -15,19 +15,19 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@bnb/card  (via GitHub Package Registry)'),
+  name: chalk.white('               Yen-Chu Yu'),
+  handle: chalk.white('Andrew Yu'),
+  work: chalk.white('Freelance Software Engineer'),
+//   opensource: chalk.white(' ') + chalk.green(''),
+  facebook: chalk.gray('https://www.facebook.com/') + chalk.cyan('andrew.yu.9400'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~andrew7011616'),
+  github: chalk.gray('https://github.com/') + chalk.green('yuyenchu'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('andrew-yu-9660601a4'),
+  web: chalk.cyan('https://personal-next-vercel.vercel.app/'),
+  npx: chalk.red('npx') + ' ' + chalk.white('andrew7011616'),
   labelWork: chalk.white.bold('       Work:'),
-  labelOpenSource: chalk.white.bold('Open Source:'),
-  labelTwitter: chalk.white.bold('    Twitter:'),
+//   labelOpenSource: chalk.white.bold('Open Source:'),
+  labelFacebook: chalk.white.bold('    Facebook:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
@@ -39,8 +39,8 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
+// const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
+const facebooking = `${data.labelFacebook}  ${data.facebook}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
@@ -51,8 +51,9 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               opensourcing + newline + newline + // data.labelOpenSource + data.opensource
-               twittering + newline + // data.labelTwitter + data.twitter
+            //    opensourcing + newline  // data.labelOpenSource + data.opensource
+               newline +
+               facebooking + newline + // data.labelFacebook + data.facebook
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
