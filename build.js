@@ -10,7 +10,16 @@ const path = require('path')
 const options = {
   padding: 1,
   margin: 1,
-  borderStyle: 'round'
+  backgroundColor: "black",
+  borderStyle: 
+  {
+	topLeft: '╭',
+	topRight: '╮',
+	bottomLeft: '╰',
+	bottomRight: '╯',
+	horizontal: '-',
+	vertical: '║'
+}
 }
 
 // Text + chalk definitions
@@ -20,8 +29,8 @@ const data = {
   work: chalk.white('Freelance Software Engineer'),
 //   opensource: chalk.white(' ') + chalk.green(''),
   facebook: chalk.gray('https://www.facebook.com/') + chalk.cyan('andrew.yu.9400'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~andrew7011616'),
-  github: chalk.gray('https://github.com/') + chalk.green('yuyenchu'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.green('~andrew7011616'),
+  github: chalk.gray('https://github.com/') + chalk.red('yuyenchu'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('andrew-yu-9660601a4'),
   web: chalk.cyan('https://personal-next-vercel.vercel.app/'),
   npx: chalk.red('npx') + ' ' + chalk.white('andrew7011616'),

@@ -1,6 +1,6 @@
 {
   "name": "andrew7011616",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A personal card for Andrew Yu",
   "main": "/bin/card.js",
   "bin": {
@@ -33,7 +33,7 @@
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "^2.1.0",
+    "boxen": "^5.0.1",
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
   },
