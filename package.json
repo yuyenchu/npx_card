@@ -1,6 +1,6 @@
 {
   "name": "andrew7011616",
-  "version": "1.6.0",
+  "version": "0.0.0",
   "description": "A personal card for Andrew Yu",
   "main": "/bin/card.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/yuyenchu/npx_card.git"
   },
   "homepage": "https://personal-next-vercel.vercel.app/",
   "scripts": {
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "andrew7011616",
+  "author": "andrew7011616 <andrew7011616@gmail.com>",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,10 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/yuyenchu/npx_card/issues"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
-  }
+  "dependencies": {}
 }
