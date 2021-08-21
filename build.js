@@ -32,14 +32,14 @@ const data = {
   npm: chalk.gray('https://npmjs.com/') + chalk.green('~andrew7011616'),
   github: chalk.gray('https://github.com/') + chalk.red('yuyenchu'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('andrew-yu-9660601a4'),
-  web: chalk.cyan('https://personal-next-vercel.vercel.app/'),
-  npx: chalk.red('npx') + ' ' + chalk.white('andrew7011616'),
+  web: chalk.white('https://personal-next-vercel.vercel.app/'),
+  npx: chalk.green('npx')+ ' '+chalk.white('andrew7011616'),
   labelWork: chalk.white.bold('       Work:'),
 //   labelOpenSource: chalk.white.bold('Open Source:'),
-  labelFacebook: chalk.white.bold('    Facebook:'),
-  labelnpm: chalk.white.bold('        npm:'),
-  labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  labelFacebook: chalk.cyan.bold('   Facebook:'),
+  labelnpm: chalk.green.bold('        npm:'),
+  labelGitHub: chalk.red.bold('     GitHub:'),
+  labelLinkedIn: chalk.blue.bold('   LinkedIn:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
@@ -63,9 +63,9 @@ const output = heading + // data.name + data.handle
             //    opensourcing + newline  // data.labelOpenSource + data.opensource
                newline +
                facebooking + newline + // data.labelFacebook + data.facebook
+               linkedining + newline + // data.labelLinkedIn + data.linkedin
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 

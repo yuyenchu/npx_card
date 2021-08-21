@@ -1,6 +1,6 @@
 {
   "name": "andrew7011616",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A personal card for Andrew Yu",
   "main": "/bin/card.js",
   "bin": {
